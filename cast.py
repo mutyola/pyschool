@@ -11,4 +11,6 @@ print('Total:',total,type(total))
 total=int(num1)+int(num2)
 print('Total:',total,type(total))
 
-
+#store and concatenate
+total=float(num1)+float(num2)
+print('Total:'+str(total),type(total))
