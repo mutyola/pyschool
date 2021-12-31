@@ -7,5 +7,8 @@ print('Input is:',type(num1),type(num2))
 total=num1+num2
 print('Total:',total,type(total))
 
+#re-addition
+total=int(num1)+int(num2)
+print('Total:',total,type(total))
 
 
