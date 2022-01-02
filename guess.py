@@ -8,8 +8,7 @@ print('Guess my number 1-20:',end='')
 
 #compare
 while flag==True:
-
-guess=input()
+guess =input()
 if not guess.isdigit():
 print('Invalid!Enter only digits 1-20')
 break
