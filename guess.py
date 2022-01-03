@@ -1,19 +1,14 @@
 import random
-#initialise 3 var
-num=random.randint(1,20)
-flag=True
-guess=0
-#display message for  user guess
-print('Guess my number 1-20:',end='')
-
-#compare
-while flag==True:
-guess =input()
-if not guess.isdigit():
-print('Invalid!Enter only digits 1-20')
-break
-elif int(guess)<num:
-print('Too low,try again:',end='')
-else:
-print('Correct...My number is'+guess)
-flag=False
+n = random.randint(1, 99)
+guess = int(raw_input("Enter an integer from 1 to 99: "))
+while n != "guess":
+    print
+    if guess < n:
+        print "guess is low"
+        guess = int(raw_input("Enter an integer from 1 to 99: "))
+    elif guess > n:
+        print "guess is high"
+        guess = int(raw_input("Enter an integer from 1 to 99: "))
+    else:
+        print "you guessed it!"
+        break
