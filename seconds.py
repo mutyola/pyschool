@@ -2,9 +2,6 @@
 #Mutyola Mwanza
 
 #declare var
-var=day
-s=60
-h=60
-d=24
-print=input('Enter number of day(s):')
-
+day=input("Enter the number of days:")
+sec=day*86400
+print('There are',sec,'seconds in',day, 'days!')
