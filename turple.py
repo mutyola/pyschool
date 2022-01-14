@@ -4,4 +4,4 @@ print( 'Days of the week:' , days )
 print( 'No. of days in week:' , len( days ) )
 print( 'Start day of week:' , days[0] )
 user = ( 'John' , 'Doe' , 'Paris' , '555-1234' )
-
+print( 'Name:' , user[0] , user[1] )
