@@ -6,3 +6,4 @@ print( '\nKeys:' , info.keys() )
 del info[ 'name' ]
 info[ 'user' ] = 'Tom'
 print( '\nDictionary:' , info )
+print( '\nIs There A name Key?:' ,'name' in info )
