@@ -1,5 +1,5 @@
 title = 'Coding for Beginners In Easy Steps'
 try :
-	print( titel )
+	print( title )
 except NameError as msg :
 	print( msg )
