@@ -6,3 +6,4 @@ local_var = 2
 global inner_var
 inner_var = 3
 my_vars()
+print( 'Coerced Global:' , inner_var )
