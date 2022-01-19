@@ -4,3 +4,4 @@ def square( num ) :
 		return 'Invalid Entry'
 num = int( num )
 return num * num
+print( num , 'Squared Is:' , square( num ) )
