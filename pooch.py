@@ -5,3 +5,4 @@ nap()
 bark( 'Pooch' )
 lick( 'Pooch' )
 nap( 'Pooch' )
+from dog import *
