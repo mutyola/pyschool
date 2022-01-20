@@ -6,3 +6,4 @@ bark( 'Pooch' )
 lick( 'Pooch' )
 nap( 'Pooch' )
 from dog import *
+pet = input( 'Enter A Pet Name: ' )
