@@ -13,3 +13,5 @@ print( '\tRemoving value' , copy[ minimum ] , \
 sorted_copy.append( copy.pop( minimum )
 array = [ 5 , 3 , 1 , 2 , 6 , 4 ]
 print( 'Copy Sort...\nArray :' , array )
+print( 'Copy :' , copy_sort( array ) )
+print( 'Array :' , array )
