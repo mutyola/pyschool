@@ -11,3 +11,5 @@ for element in range( 0 , len( copy ) ) :
 print( '\tRemoving value' , copy[ minimum ] , \
 			'from' , copy )
 sorted_copy.append( copy.pop( minimum )
+array = [ 5 , 3 , 1 , 2 , 6 , 4 ]
+print( 'Copy Sort...\nArray :' , array )
