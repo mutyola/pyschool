@@ -3,3 +3,9 @@ def selection_sort( array ) :
 		value = array[ index ]
 		current = index
 # Algorithm sequence to be added here.
+	for element in range( index+1 , len( array ) ) :
+		if array[ element ] < array[ current ] :
+			current = element
+	array[ index ] = array[ current ]
+	array[ current ]= value
+	print( '\tResolving element[' , index , '] to ' , array )
