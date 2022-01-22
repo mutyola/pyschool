@@ -9,3 +9,5 @@ def selection_sort( array ) :
 	array[ index ] = array[ current ]
 	array[ current ]= value
 	print( '\tResolving element[' , index , '] to ' , array )
+	array = [ 5 , 3 , 1 , 2 , 6 , 4 ]
+print( 'Selection Sort...\nArray :' , array )
