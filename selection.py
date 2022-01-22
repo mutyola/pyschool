@@ -11,3 +11,5 @@ def selection_sort( array ) :
 	print( '\tResolving element[' , index , '] to ' , array )
 	array = [ 5 , 3 , 1 , 2 , 6 , 4 ]
 print( 'Selection Sort...\nArray :' , array )
+selection_sort( array )
+print( 'Array :' , array )
