@@ -21,3 +21,13 @@ class rectangle(shape):
 	def calculate_area_rectangle(self):
 		return self.l * self.w
 
+a = shape()
+a.foo()
+b = circle(5)
+b.foo()
+area = b.calculate_area_circle()
+print('area:', area)
+c = rectangle(2, 3)
+c.foo()
+area = c.calculate_area_rectangle()
+print('area:', area)
