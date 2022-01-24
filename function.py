@@ -13,3 +13,12 @@ def fibonacci(n):
 		return 1
 	else:
 		return fibonacci(n-1) + fibonacci(n-2)
+foo()
+m = calculate(10, 5)
+print(m)
+a, b, c = perform(5)
+print(a)
+print(b)
+print(c)
+res = fibonacci(10)
+print(res)
