@@ -21,3 +21,7 @@ class City:
 		xi = pow(other_city.x - self.x, 2)
 		yi = pow(other_city.y - self.y, 2)
 		return sqrt(xi + yi)
+	def __del__(self):
+	# get class name
+		class_name = self.__class__.__name__
+		print('class ', class_name, ' destroyed')
