@@ -5,4 +5,15 @@ if guess == num:
 	print("Well done")
 elif guess > num:
 	print("Too high")
-	guess = int(input("Guess again"))
+	guess = int(input("Guess again: "))
+	if guess == num:
+		print("Correct")
+	else:
+		print("You lose")
+elif guess < num:
+	print("Too low")
+	guess = int(input("Guess again: "))
+	if guess == num:
+		print("Correct")
+	else:
+		print("You lose")	
