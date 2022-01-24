@@ -25,3 +25,15 @@ class City:
 	# get class name
 		class_name = self.__class__.__name__
 		print('class ', class_name, ' destroyed')
+
+a = City('Hamburg', 10, 5)
+b = City('Berlin', 3, 10)
+print(a)
+print(b)
+print(City.city_count)
+a.move_to(4, 3)
+b.move_to(7, 12)
+print(a)
+print(b)
+distance = a.distance(b)
+print(distance)
