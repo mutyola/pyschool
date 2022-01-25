@@ -32,3 +32,7 @@ print('area:', area)
 b = circle(5)
 area = b.calculate_area()
 print('area:', area)
+
+c = rectangle(2, 3)
+area = c.calculate_area()
+print('area:', area)
