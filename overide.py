@@ -29,4 +29,6 @@ a = shape()
 area = a.calculate_area()
 print('area:', area)
 
-
+b = circle(5)
+area = b.calculate_area()
+print('area:', area)
