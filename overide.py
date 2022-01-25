@@ -6,3 +6,7 @@ class shape:
 	def calculate_area(self):
 		print('calling calculate_area() from shape class')
 		return 0
+class circle(shape):
+	def __init__(self, r):
+		print('call __init__ from circle class')
+		self.r = r
