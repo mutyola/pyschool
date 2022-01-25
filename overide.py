@@ -25,3 +25,8 @@ class rectangle(shape):
 		print('calling calculate_area() from rectangle class')
 		return self.l * self.w
 
+a = shape()
+area = a.calculate_area()
+print('area:', area)
+
+
