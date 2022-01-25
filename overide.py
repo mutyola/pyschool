@@ -13,3 +13,9 @@ class circle(shape):
 	def calculate_area(self):
 		print('calling calculate_area() from circle class')
 		return math.pi * self.r * self.r
+
+class rectangle(shape):
+	def __init__(self, l, w):
+		print('call __init__ from rectangle class')
+		self.l = l
+		self.w = w
