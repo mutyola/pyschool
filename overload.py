@@ -22,3 +22,8 @@ class Point:
 a = Point(10, 3)
 b = Point(2, 7)
 c = Point(8, 1)
+
+print(a)
+print(a + b)
+print(c - b)
+print(a * c
