@@ -7,3 +7,6 @@
 
 import colorama
 from colorama import Fore, Back, Style
+
+colorama.init()
+message = "hello world from python"
