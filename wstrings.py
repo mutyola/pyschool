@@ -24,3 +24,9 @@ str1 = str(a)
 str2 = str(b)
 print(str1)
 print(str2)
+
+# parsing
+msg = 'Berlin;Amsterdam;London;Tokyo'
+cities = msg.split(';')
+for city in cities:
+    print(city)
