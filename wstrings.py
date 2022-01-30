@@ -30,3 +30,6 @@ msg = 'Berlin;Amsterdam;London;Tokyo'
 cities = msg.split(';')
 for city in cities:
     print(city)
+
+# string operations
+msg = 'Hello world, Python!'
