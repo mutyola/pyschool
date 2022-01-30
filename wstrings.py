@@ -33,3 +33,7 @@ for city in cities:
 
 # string operations
 msg = 'Hello world, Python!'
+
+# upper & lower
+print(msg.upper())
+print(msg.lower())
