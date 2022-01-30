@@ -37,3 +37,12 @@ msg = 'Hello world, Python!'
 # upper & lower
 print(msg.upper())
 print(msg.lower())
+
+# copy
+print(msg[5:])
+print(msg[:5])
+print(msg[-3:])
+print(msg[:-3])
+print(msg[2:6])
+print(msg[5:8])
+
