@@ -46,3 +46,6 @@ print(msg[:-3])
 print(msg[2:6])
 print(msg[5:8])
 
+# get a length of string
+length = len(msg)
+print(length)
