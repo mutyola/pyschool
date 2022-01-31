@@ -22,3 +22,12 @@ for index in range(1, 12):
     f2.write(data)
     bf1.write(data)
     bf2.write(data)
+
+    #####################################
+# close all
+
+print('close files...')
+f1.close()
+f2.close()
+bf1.close()
+bf2.close()
