@@ -20,3 +20,19 @@ def reading_data(f):
             break
 
         sys.stdout.write(data)
+
+print('for mydoc1>>>>>')
+reading_data(f1)
+print('>>>>>>>>>>>>>>>')
+
+print('for mydoc2>>>>>')
+reading_data(f2)
+print('>>>>>>>>>>>>>>>')
+
+print('for mydoc3>>>>>')
+reading_data(bf1)
+print('>>>>>>>>>>>>>>>')
+
+print('for mydoc4>>>>>')
+reading_data(bf1)
+print('>>>>>>>>>>>>>>>')
