@@ -1,3 +1,4 @@
+
 # reading file
 
 import sys
@@ -10,6 +11,7 @@ f2 = open('mydoc2', 'r')
 bf1 = open('mydoc3', 'rb')
 bf2 = open('mydoc4', 'rb')
 
+
 #####################################
 # reading data
 
@@ -20,6 +22,7 @@ def reading_data(f):
             break
 
         sys.stdout.write(data)
+
 
 print('for mydoc1>>>>>')
 reading_data(f1)
