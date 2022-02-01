@@ -36,3 +36,12 @@ print('>>>>>>>>>>>>>>>')
 print('for mydoc4>>>>>')
 reading_data(bf1)
 print('>>>>>>>>>>>>>>>')
+
+#####################################
+# close all
+
+print('close files...')
+f1.close()
+f2.close()
+bf1.close()
+bf2.close()
