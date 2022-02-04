@@ -15,3 +15,5 @@ except Exception as e:
 
 finally:
     print('Done')
+
+print('exit from program')
