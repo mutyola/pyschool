@@ -9,3 +9,6 @@ try:
 
     c = a / b
     print('result:', str(c))
+    
+except Exception as e:
+    print(e)
