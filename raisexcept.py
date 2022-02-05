@@ -12,3 +12,6 @@ try:
 
 except Exception as e:
     raise
+
+finally:
+    print('Done')
