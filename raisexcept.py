@@ -15,3 +15,6 @@ except Exception as e:
 
 finally:
     print('Done')
+
+# this code is never called
+print('exit from program')
