@@ -9,4 +9,5 @@ class MySimpleError(Exception):
     def __str__(self):
         return repr(str(self.code) + ":" + self.message)
 
-    
+    def save_to_database(self):
+        print('save this error into database..')
