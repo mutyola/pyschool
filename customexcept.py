@@ -11,3 +11,9 @@ class MySimpleError(Exception):
 
     def save_to_database(self):
         print('save this error into database..')
+
+# how to use custom error
+try:
+    print('demo custom error')
+    print('raise error now')
+    raise MySimpleError(100,'This is custom error')
