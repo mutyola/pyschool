@@ -17,3 +17,7 @@ try:
     print('demo custom error')
     print('raise error now')
     raise MySimpleError(100,'This is custom error')
+
+except MySimpleError as e:
+    print(e)
+    e.save_to_database()
